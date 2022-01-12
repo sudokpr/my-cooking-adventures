@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
@@ -50,7 +51,11 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
         <ul>
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
+            const { slug, date, title, summary, tags, images } = frontMatter
+            let heroImage
+            if (images && images.length > 0) {
+              heroImage = images[0]
+            }
             return (
               <li key={slug} className="py-4">
                 <article className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
@@ -58,6 +63,11 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                     <dt className="sr-only">Published on</dt>
                     <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                       <time dateTime={date}>{formatDate(date)}</time>
+                      {heroImage && (
+                        <div style={{ marginRight: 20 }}>
+                          <Image src={heroImage} layout="responsive" width={640} height={400} />
+                        </div>
+                      )}
                     </dd>
                   </dl>
                   <div className="space-y-3 xl:col-span-3">

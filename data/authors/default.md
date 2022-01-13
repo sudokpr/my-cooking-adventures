@@ -1,8 +1,8 @@
 ---
-name: Tails Azimuth
+name: Keerthi
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
+occupation: An expert cook, full-time babysitter
+company: University of babysitting
 email: address@yoursite.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com

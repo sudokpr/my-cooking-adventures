@@ -51,9 +51,9 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
         <ul>
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter) => {
-            const { slug, date, title, summary, tags, images } = frontMatter
+            const { slug, date, title, summary, tags, images = [] } = frontMatter
             let heroImage
-            if (images && images.length > 0) {
+            if (images.length > 0) {
               heroImage = images[0]
             }
             return (

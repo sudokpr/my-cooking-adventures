@@ -6,7 +6,9 @@ draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
 ---
 
-A sample post with markdown.
+# A sample post with markdown.
+
+<img src="/static/images/cake-heart.jpeg"/>
 
 ## Inline Highlighting
 

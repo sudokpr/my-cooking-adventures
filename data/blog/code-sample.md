@@ -1,40 +1,27 @@
 ---
 title: Sample .md file
-date: '2016-03-08'
+date: '2021-03-08'
 tags: ['markdown', 'code', 'features']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: Example of a markdown file with code blocks and syntax highlighting. We need at-least two lines of summary to match the height of an image with aspect ratio 3:4 on desktop
+images: ['/static/images/cake-heart.jpeg', '/static/images/canada/toronto.jpg']
 ---
 
 # A sample post with markdown.
 
+NextjS with datablur
+
+<Image src="/static/images/cake-heart.jpeg" layout="responsive" width="640" height="800" blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMM33T8PwAGCQLRm4887QAAAABJRU5ErkJggg==" placeholder="blur" />
+
+Local
+
+![tailwind-nextjs-banner](/static/images/cake-heart.jpeg)
+
+HTML
+
 <img src="/static/images/cake-heart.jpeg"/>
-
-## Inline Highlighting
-
-Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
-
-## Code Blocks
-
-Some Javascript code
-
-```javascript
-var num1, num2, sum
-num1 = prompt('Enter first number')
-num2 = prompt('Enter second number')
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert('Sum = ' + sum) // "+" means combine into a string
-```
-
-Some Python code 🐍
-
-```python
-def fib():
-    a, b = 0, 1
-    while True:            # First iteration:
-        yield a            # yield 0 to start with and then
-        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
-
-for index, fibonacci_number in zip(range(10), fib()):
-     print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
-```
+Direct from Github
+![cake-heart](https://user-images.githubusercontent.com/96935301/149432486-998f1373-4f8a-4598-9d5b-e067d36f34b6.jpeg)
+NextJS
+<Image src="/static/images/cake-heart.jpeg" layout="responsive" width="640" height="400" objectFit="contain"/>
+<Image src="/static/images/momos.jpeg" layout="responsive" width="640" height="400" objectFit="contain"/>

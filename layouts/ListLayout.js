@@ -65,7 +65,13 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                       <time dateTime={date}>{formatDate(date)}</time>
                       {heroImage && (
                         <div style={{ marginRight: 20 }}>
-                          <Image src={heroImage} layout="responsive" width={640} height={400} />
+                          <Image
+                            src={heroImage}
+                            layout="responsive"
+                            objectFit="contain"
+                            width={640}
+                            height={400}
+                          />
                         </div>
                       )}
                     </dd>

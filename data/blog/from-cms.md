@@ -5,8 +5,8 @@ summary: The sample blog edited on NetlifyCMS which makes it easy for editing
   markdown files
 tags: CMS
 date: 2022-01-15T06:39:17.200Z
-images: public/static/images/roti-kofta.jpeg
-authors: Keerthi
+images: ['public/static/images/roti-kofta.jpeg']
+authors: ['default']
 ---
 # The Recipe edited on CMS
 

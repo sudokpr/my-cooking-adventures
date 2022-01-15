@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from '@/components/image'
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
@@ -47,13 +47,7 @@ export default function Home({ posts }) {
                         <time dateTime={date}>{formatDate(date)}</time>
                         {heroImage && (
                           <div style={{ marginRight: 20 }}>
-                            <Image
-                              src={heroImage}
-                              layout="responsive"
-                              objectFit="contain"
-                              width={640}
-                              height={400}
-                            />
+                            <Image src={heroImage} width={400} height={266} />
                           </div>
                         )}
                       </dd>

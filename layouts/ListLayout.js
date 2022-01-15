@@ -1,4 +1,4 @@
-import Image from '@/components/image'
+import Image from '@/components/Image'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'

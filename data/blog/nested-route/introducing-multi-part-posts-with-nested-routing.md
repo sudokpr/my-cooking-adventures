@@ -1,10 +1,13 @@
 ---
 title: Introducing Multi-part Posts with Nested Routing
-date: '2021-05-02'
+date: '2021-11-02'
 tags: ['multi-author', 'next-js', 'feature']
+images: ['/static/images/corn-bonda.jpeg']
 draft: false
 summary: 'The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!'
 ---
+
+![image](/static/images/corn-bonda.jpeg)
 
 # Nested Routes
 

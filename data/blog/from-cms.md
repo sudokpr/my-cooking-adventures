@@ -34,4 +34,8 @@ The complete content was edited on the CMS including the images.
 
 After its done, shallow fry it in the tomato sauce prepared.
 
-![](public/static/images/ravioli.jpeg)
+![completed ravioli](public/static/images/ravioli.jpeg "After completion")
+
+
+
+![bird](public/static/images/bird.jpeg "Sitting bird")

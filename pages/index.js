@@ -47,7 +47,7 @@ export default function Home({ posts }) {
                         <time dateTime={date}>{formatDate(date)}</time>
                         {heroImage && (
                           <div style={{ marginRight: 20 }}>
-                            <Image src={heroImage} width={400} height={266} />
+                            <Image src={heroImage} width={400} height={266} objectFit="cover" />
                           </div>
                         )}
                       </dd>

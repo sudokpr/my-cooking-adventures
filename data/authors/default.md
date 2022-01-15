@@ -1,16 +1,13 @@
 ---
 name: Keerthi
-avatar: /static/images/avatar.png
+avatar: /static/images/me.jpeg
 occupation: An expert cook, full-time babysitter
-company: University of babysitting
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+# company: University of babysitting
+# email: address@yoursite.com
+# twitter: https://twitter.com/Twitter
+# linkedin: https://www.linkedin.com
+# github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Cooking is fun!! I like to search, explore and experiment new recipes all the time.
+A lot of the recipes that I write are simple and fast to prepare, with step-by-step pictures and directions. I hope I can inspire and convince, at least some of you, that with not much time, some love and a good appetite you too can prepare amazing dishes.

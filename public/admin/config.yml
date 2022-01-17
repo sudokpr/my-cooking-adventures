@@ -4,13 +4,13 @@ backend:
 media_folder: "public/static/images"
 public_folder: "/static/images"
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "data/blog"
+  - name: "Recipe"
+    label: "Recipe"
+    folder: "data/recipe"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "string", default: "PostSimple"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "PostSimple"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}

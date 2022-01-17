@@ -4,7 +4,7 @@ title: New recipe in recipe collection
 summary: Testing recipe after move from blog to recipe folder
 tags:
   - test
-  - blog-to-recipe
+  - blogtorecipe
 date: 2022-01-17T03:24:49.016Z
 images:
   - /static/images/bird.jpeg

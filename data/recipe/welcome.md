@@ -1,9 +1,8 @@
 ---
-layout: PostSimple
-title: Welcome
+title: Preparing...
 summary: I am working on my 1st recipe and should be out soon. Please watch this space.
 tags:
-  - WELCOME
+  - Welcome
 date: 2022-01-18T18:35:03.692Z
 images:
   - /static/images/gaelle-marcel-galwm8dx73u-unsplash.jpeg

@@ -5,16 +5,16 @@ const siteMetadata = {
   description: 'A collection of my favourite receipes',
   language: 'en-us',
   theme: 'light', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://abhiruchi.me',
   siteRepo: 'https://github.com/sudokpr/my-cooking-adventures',
   siteLogo: '/static/images/logo.png',
   // image: '/static/images/avatar.png',
   // socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
+  // email: 'address@yoursite.com',
   // github: 'https://github.com',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
+  // facebook: 'https://facebook.com',
+  // youtube: 'https://youtube.com',
   // linkedin: 'https://www.linkedin.com',
   locale: 'en-US',
   analytics: {
@@ -22,7 +22,7 @@ const siteMetadata = {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-0D47F283P3', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     enabled: false,
@@ -31,7 +31,7 @@ const siteMetadata = {
     provider: 'buttondown',
   },
   comment: {
-    enabled: true,
+    enabled: false,
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
     provider: 'disqus', // supported providers: giscus, utterances, disqus

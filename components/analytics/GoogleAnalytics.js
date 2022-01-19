@@ -18,6 +18,9 @@ const GAScript = () => {
             gtag('config', '${siteMetadata.analytics.googleAnalyticsId}', {
               page_path: window.location.pathname,
             });
+            gtag('set', {'allow_google_signals', false});
+            gtag('set', {'allow_ad_personalization_signals', false});
+            gtag ( 'set', { 'restricted_data_processing': true });
         `}
       </Script>
     </>

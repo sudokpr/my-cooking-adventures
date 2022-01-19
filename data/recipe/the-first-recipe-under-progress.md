@@ -1,6 +1,6 @@
 ---
 layout: PostSimple
-title: The first recipe, under progress
+title: Welcome
 summary: I am working on my 1st recipe and should be out soon. Please watch this space.
 tags:
   - WAIT

@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Abhiruchi - My cookbook',
+  title: 'Abhiruchi - My virtual cookbook',
   author: 'Keerthi',
-  headerTitle: 'Abhiruchi',
+  headerTitle: 'ಅಭಿರುಚಿ (Abhiruchi )',
   description: 'A collection of my favourite receipes',
   language: 'en-us',
   theme: 'light', // system, dark or light
@@ -31,10 +31,10 @@ const siteMetadata = {
     provider: 'buttondown',
   },
   comment: {
-    enabled: false,
+    enabled: true,
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: 'disqus', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
@@ -70,7 +70,8 @@ const siteMetadata = {
     },
     disqusConfig: {
       // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-      shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
+      // shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
+      shortname: 'abhiruchi',
     },
   },
 }

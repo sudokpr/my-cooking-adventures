@@ -1,7 +1,7 @@
 ---
 name: Keerthi
 avatar: /static/images/me.jpeg
-occupation: Accountant, Tax Auditor by profession. Currently full-time babysitting my 3y old daughter.
+occupation: Accountant, Tax Auditor by profession. Currently full-time babysitting my 3y old daughter 😅
 # company: University of babysitting
 # email: address@yoursite.com
 # twitter: https://twitter.com/Twitter
@@ -11,6 +11,6 @@ occupation: Accountant, Tax Auditor by profession. Currently full-time babysitti
 
 **ಅಭಿರುಚಿ (_Abhiruchi_ )** - Personal taste, interests or preferences
 
-I like to search, explore and experiment with new recipes all the time. To encourage my passion for cooking and share my learnings with everyone, my husband, a full-time techie, built this website as a gift.
+I like to search, explore and experiment with new recipes all the time. To share my recipes with the world, my husband, a full-time techie 👨‍💻, built this website as a gift for me. We call it a "virtual cookbook"!
 
-This virtual cookbook is a collection of my experiments in cooking. Being a vegetarian by choice, you will find only vegetarian recipes across multiple cuisines. I will try my best to keep the recipes very simple and quick to prepare, with step-by-step pictures and directions. I hope I can inspire and convince, at least a few of you, with some love and a good appetite anyone can prepare amazing dishes.
+This cookbook is a collection of my experiments in cooking. Being a vegetarian by choice, you will find only vegetarian recipes across multiple cuisines. I will keep the recipes simple and quick to prepare, with step-by-step pictures and directions. I hope to inspire and convince some of you that with some love and an appetite to learn, anyone can prepare simple, and amazing dishes.

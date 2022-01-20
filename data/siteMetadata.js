@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Abhiruchi - My virtual cookbook',
+  title: 'Abhiruchi - My cookbook',
   author: 'Keerthi',
   headerTitle: 'ಅಭಿರುಚಿ (Abhiruchi )',
   description: 'A collection of my favourite receipes',

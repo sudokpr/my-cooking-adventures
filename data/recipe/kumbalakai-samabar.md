@@ -14,18 +14,31 @@ images:
 # **Ingredients :**
 
 Ash Gourd - Half
+
 Chilli powder - 1/2 tb spoon
+
 Jaggery - One small piece or 2tb spoon
+
 Tamarind extract - 1/4 cup
+
 Coconut Oil - 2tb spoon ( Alternatively can use regular vegetable oil)
+
 Grated coconut : 1 cup
+
 Methi seeds - 1/4 tb spoon
+
 Urad dal - 1 spoon
+
 Coriander seeds/ Dhaniya - 2 spoons
+
 Jeera - 1/2 spoon
+
 Red chillies - 5-6 badagi chillies
+
 Hing - 1 pinch
+
 Mustard seeds - 1 tspn
+
 Curry Leaves - few
 
 # Instructions :

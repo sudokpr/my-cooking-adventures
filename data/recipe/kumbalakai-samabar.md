@@ -58,7 +58,7 @@ Curry Leaves - few
 
 **Step 2 : Now let us cook these pieces. So, add water enough as that pieces are immersed in water.**
 
-![cut veggies](https://res.cloudinary.com/abhiruchi/image/upload/v1643073125/pxl_20220123_043744646.night_xvcdnp.jpg)
+![cut veggies](https://res.cloudinary.com/abhiruchi/image/upload/c_scale,w_527/v1643073125/pxl_20220123_043744646.night_xvcdnp.jpg)
 
 **Step 3 : After it starts boiling add half spoon off chilli powder,  1 spoon of jaggery, tamarind extract & Salt to taste.**
 

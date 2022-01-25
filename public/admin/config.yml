@@ -3,11 +3,11 @@ backend:
   branch: master
 media_folder: "public/static/images"
 public_folder: "/static/images"
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: abhiruchi
-    api_key: 622373855911142
+  # media_library:
+  #   name: cloudinary
+  #   config:
+  #     cloud_name: abhiruchi
+  #     api_key: 622373855911142
 collections:
   - name: "Recipe"
     label: "Recipe"

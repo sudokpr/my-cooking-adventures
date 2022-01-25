@@ -1,6 +1,6 @@
 ---
 layout: PostSimple
-title: Kumbalakai Samabar
+title: Kumbalakai Sambar
 summary: Today I have come with an udupi style simple sambar recipe.
 tags:
   - Temple style sambar

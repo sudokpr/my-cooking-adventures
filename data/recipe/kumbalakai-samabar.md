@@ -58,11 +58,11 @@ Curry Leaves - few
 
 **Step 2 : Now let us cook these pieces. So, add water enough as that pieces are immersed in water.**
 
-![](/static/images/pxl_20220123_043744646.night.jpg)
+![cut veggies](https://res.cloudinary.com/abhiruchi/image/upload/t_w720/v1643073125/kumbalakai_sambar/pxl_20220123_043744646.night_xvcdnp.jpg)
 
 **Step 3 : After it starts boiling add half spoon off chilli powder,  1 spoon of jaggery, tamarind extract & Salt to taste.**
 
-![](/static/images/pxl_20220123_044048042.night.jpg)
+![](https://res.cloudinary.com/abhiruchi/image/upload/t_w720/v1643075037/kumbalakai_sambar/pxl_20220123_044048042.night_oggkvu.jpg)
 
 ![](/static/images/pxl_20220123_044211869.night.jpg)
 

@@ -3,9 +3,9 @@ layout: PostSimple
 title: Veg Clear Soup recipe / Clear soup recipe / Clear Vegetable Soup
 summary: Super simple Indo - Chinese soup . Quick & Easy to prepare .
 tags:
-  - Vegclearsoup
+  - soup
   - Clearvegetablesoup
-  - Indo-chinesesoup.
+  - Indo-chinese.
 date: 2022-01-25T11:37:19.162Z
 images:
   - /static/images/pxl_20210604_144553158.night.jpg

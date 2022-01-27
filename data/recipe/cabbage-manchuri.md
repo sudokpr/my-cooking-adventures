@@ -36,7 +36,7 @@ images:
 * 2 tbsp soy sauce
 * 1/2 tbsp vinegar
 * 1/4 tsp salt
-* 2 tbsp [tomato sauce](https://hebbarskitchen.com/tomato-sauce-recipe-tomato-ketchup/)
+* 2 tbsp [](https://hebbarskitchen.com/tomato-sauce-recipe-tomato-ketchup/)tomato sauce
 * 1/4 tsp pepper (crushed)
 
 # INSTRUCTIONS

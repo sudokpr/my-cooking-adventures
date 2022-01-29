@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+local_backend: true
 media_folder: "public/static/images"
 public_folder: "/static/images"
   # media_library:
@@ -20,5 +21,26 @@ collections:
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Featured Image", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"}}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Ingredients"
+        name: ingredients
+        widget: text
+      - label: "Story"
+        name: "story"
+        widget: "list"
+        summary: "{{fields.title}}"
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: false
+          - label: Description
+            name: description
+            widget: string
+            required: false
+          - label: Picture
+            name: image
+            widget: image
+          - label: "Use this as cover image?"
+            name: cover
+            widget: boolean
+            default: false

@@ -3,6 +3,7 @@ import PageTitle from '@/components/PageTitle'
 import generateRss from '@/lib/generate-rss'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
+import { useAmp } from 'next/amp'
 
 const DEFAULT_LAYOUT = 'PostLayout'
 
@@ -40,10 +41,66 @@ export async function getStaticProps({ params }) {
   return { props: { post, authorDetails, prev, next } }
 }
 
+export const config = { amp: 'hybrid' }
+
 export default function Blog({ post, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
+  const isAmp = useAmp()
+  const {
+    frontMatter: {
+      title,
+      story = [
+        {
+          image: '',
+        },
+      ],
+    },
+  } = post
 
-  return (
+  let coverPage
+  const coverPages = story.filter((page) => page.cover)
+  if (coverPages.length > 0) {
+    coverPage = coverPages[0]
+  } else {
+    coverPage = story[0]
+  }
+  return isAmp ? (
+    <amp-story standalone supports-landscape title={title} published="kirthi">
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="fill">
+          <amp-img
+            class="contain"
+            src={coverPage.image}
+            width="700"
+            height="900"
+            layout="responsive"
+          />
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="contain">
+          <h1>{title}</h1>
+          {authorDetails.map((author, index) => (
+            <p key={index}> {author.name} </p>
+          ))}
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      {story.map((step, index) => (
+        <amp-story-page id={index} key={index}>
+          <amp-story-grid-layer template="cover">
+            <h1>{step.title}</h1>
+            <amp-img
+              class="contain"
+              src={step.image}
+              width="900"
+              height="600"
+              layout="responsive"
+            ></amp-img>
+            <q>{step.description}</q>
+          </amp-story-grid-layer>
+        </amp-story-page>
+      ))}
+    </amp-story>
+  ) : (
     <>
       {frontMatter.draft !== true ? (
         <MDXLayoutRenderer

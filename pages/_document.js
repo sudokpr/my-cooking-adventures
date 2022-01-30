@@ -33,6 +33,53 @@ class MyDocument extends Document {
             integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
             crossOrigin="anonymous"
           />
+          <style amp-custom>{`
+						amp-story {
+							font-family: 'Oswald',sans-serif;
+								color: #fff;
+							}
+						amp-story-page {
+							background-color: #000;
+						}
+						h1 {
+							font-weight: bold;
+							font-size: 2.875em;
+							font-weight: normal;
+							line-height: 1.174;
+						}
+						p {
+							font-weight: normal;
+							font-size: 1.3em;
+							line-height: 1.5em;
+							color: #fff;
+						}
+						q {
+							font-weight: 300;
+							font-size: 1.1em;
+						}
+						amp-story-grid-layer.bottom {
+							align-content:end;
+						}
+						amp-story-grid-layer.noedge {
+							padding: 0px;
+						}
+						amp-story-grid-layer.center-text {
+							align-content: center;
+						}
+						.wrapper {
+							display: grid;
+							grid-template-columns: 50% 50%;
+							grid-template-rows: 50% 50%;
+						}
+						.banner-text {
+							text-align: center;
+							background-color: #000;
+							line-height: 2em;
+						}
+						amp-img.contain img {
+							object-fit: contain;
+						}
+					`}</style>
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
           <Main />

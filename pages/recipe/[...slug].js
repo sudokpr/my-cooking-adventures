@@ -46,6 +46,7 @@ export const config = { amp: 'hybrid' }
 export default function Blog({ post, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
   const isAmp = useAmp()
+  console.log('Should I use AMP?', isAmp)
   const {
     frontMatter: {
       title,

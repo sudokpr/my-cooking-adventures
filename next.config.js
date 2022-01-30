@@ -53,6 +53,11 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  experimental: {
+    amp: {
+      skipValidation: true,
+    },
+  },
   images: {
     domains: ['unsplash.it'],
   },

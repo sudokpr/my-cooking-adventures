@@ -16,31 +16,40 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Layout", name: "layout", widget: "hidden", default: "PostSimple"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "Cover Image", name: "cover", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - label: "Ingredients"
-        name: ingredients
-        widget: text
-      - label: "Story"
-        name: "story"
-        widget: "list"
-        summary: "{{fields.title}}"
+      - label: "Recipe"
+        name: subrecipe
+        widget: list
         fields:
-          - label: Title
-            name: title
+          - label: Name
+            name: name
             widget: string
             required: false
-          - label: Description
-            name: description
-            widget: string
-            required: false
-          - label: Picture
-            name: image
-            widget: image
-          - label: "Use this as cover image?"
-            name: cover
-            widget: boolean
-            default: false
+          - label: Ingredients
+            name: ingredients
+            widget: text
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Story
+            name: story
+            widget: list
+            summary: "{{fields.title}} - {{fields.description}}"
+            fields:
+              - label: Title
+                name: title
+                widget: string
+                required: false
+              - label: Description
+                name: description
+                widget: string
+                required: false
+              - label: Picture
+                name: image
+                widget: image

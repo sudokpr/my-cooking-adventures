@@ -44,36 +44,15 @@ export const config = { amp: true }
 
 export default function Blog({ post, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
-  console.log('story page')
   const {
-    frontMatter: {
-      title,
-      story = [
-        {
-          image: '',
-        },
-      ],
-    },
+    frontMatter: { title, cover, subrecipe = [] },
   } = post
 
-  let coverPage
-  const coverPages = story.filter((page) => page.cover)
-  if (coverPages.length > 0) {
-    coverPage = coverPages[0]
-  } else {
-    coverPage = story[0]
-  }
   return (
     <amp-story standalone supports-landscape title={title} published="kirthi">
       <amp-story-page id="cover">
         <amp-story-grid-layer template="fill">
-          <amp-img
-            class="contain"
-            src={coverPage.image}
-            width="700"
-            height="900"
-            layout="responsive"
-          />
+          <amp-img class="contain" src={cover} width="700" height="900" layout="responsive" />
         </amp-story-grid-layer>
         <amp-story-grid-layer template="contain">
           <h1>{title}</h1>
@@ -83,20 +62,24 @@ export default function Blog({ post, authorDetails, prev, next }) {
         </amp-story-grid-layer>
       </amp-story-page>
 
-      {story.map((step, index) => (
-        <amp-story-page id={index} key={index}>
-          <amp-story-grid-layer template="cover">
-            <h1>{step.title}</h1>
-            <amp-img
-              class="contain"
-              src={step.image}
-              width="900"
-              height="600"
-              layout="responsive"
-            ></amp-img>
-            <q>{step.description}</q>
-          </amp-story-grid-layer>
-        </amp-story-page>
+      {subrecipe.map((section, index) => (
+        <>
+          {section.story.map((step, stepIndex) => (
+            <amp-story-page id={section.name + stepIndex} key={section.name + stepIndex}>
+              <amp-story-grid-layer template="cover">
+                <h1>{step.title}</h1>
+                <amp-img
+                  class="contain"
+                  src={step.image}
+                  width="900"
+                  height="600"
+                  layout="responsive"
+                ></amp-img>
+                <q>{step.description}</q>
+              </amp-story-grid-layer>
+            </amp-story-page>
+          ))}
+        </>
       ))}
     </amp-story>
   )

@@ -77,6 +77,14 @@ export default function Blog({ post, authorDetails, prev, next }) {
               </h1>
             </amp-story-grid-layer>
           </amp-story-page>
+          <amp-story-page id={section.name + 'ingredients'} key={section.name + 'ingrdients'}>
+            <amp-story-grid-layer template="vertical">
+              <h1 className="transparent-holder">Ingredients</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="center-text">
+              <div className="wrap transparent-holder">{section.ingredients}</div>
+            </amp-story-grid-layer>
+          </amp-story-page>
           {section.story.map((step, stepIndex) => (
             <amp-story-page id={section.name + stepIndex} key={section.name + stepIndex}>
               <amp-story-grid-layer template="fill">

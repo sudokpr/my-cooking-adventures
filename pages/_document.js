@@ -87,6 +87,9 @@ class MyDocument extends Document {
               font-size: 2.875em;
               line-height: 1.5em;
             }
+            .wrap {
+              white-space: pre-line;
+            }
 					`}</style>
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">

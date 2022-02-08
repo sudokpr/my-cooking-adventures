@@ -80,7 +80,7 @@ class MyDocument extends Document {
 							object-fit: contain;
 						}
             .transparent-holder {
-              background-color: #14b8a685;
+              background-color: #ffffff80;
               text-align: center;
             }
             .hero {

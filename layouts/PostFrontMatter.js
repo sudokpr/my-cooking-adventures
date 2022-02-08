@@ -42,9 +42,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   <div key={index}>
                     <h2> {section.name} </h2>
                     <h3> Ingredients </h3>
-                    <div className="whitespace-pre">{section.ingredients}</div>
+                    <div className="whitespace-pre-line">{section.ingredients}</div>
                     <h3> Instructions </h3>
-                    <div className="whitespace-pre">{section.instructions}</div>
+                    <div className="whitespace-pre-line">{section.instructions}</div>
                     {section.story.map((step, index) => (
                       <div key={index}>
                         <h3> {step.title} </h3>

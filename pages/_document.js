@@ -36,10 +36,10 @@ class MyDocument extends Document {
           <style amp-custom>{`
 						amp-story {
 							font-family: 'Oswald',sans-serif;
-								color: #fff;
+								color: #000;
 							}
 						amp-story-page {
-							background-color: #000;
+							background-color: #fff;
 						}
 						h1 {
 							font-weight: bold;
@@ -51,7 +51,7 @@ class MyDocument extends Document {
 							font-weight: normal;
 							font-size: 1.3em;
 							line-height: 1.5em;
-							color: #fff;
+							color: #000;
 						}
 						q {
 							font-weight: 300;
@@ -73,12 +73,20 @@ class MyDocument extends Document {
 						}
 						.banner-text {
 							text-align: center;
-							background-color: #000;
+							background-color: #fff;
 							line-height: 2em;
 						}
 						amp-img.contain img {
 							object-fit: contain;
 						}
+            .transparent-holder {
+              background-color: #14b8a685;
+              text-align: center;
+            }
+            .hero {
+              font-size: 2.875em;
+              line-height: 1.5em;
+            }
 					`}</style>
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">

@@ -64,10 +64,22 @@ export default function Blog({ post, authorDetails, prev, next }) {
 
       {subrecipe.map((section, index) => (
         <>
+          <amp-story-page id={section.name} key={section.name}>
+            <amp-story-grid-layer template="thirds" class="center-text">
+              <h1
+                grid-area="middle-third"
+                className="banner-text"
+                animate-in="fly-in-top"
+                animate-in-duration="1.5s"
+              >
+                {' '}
+                {section.name}{' '}
+              </h1>
+            </amp-story-grid-layer>
+          </amp-story-page>
           {section.story.map((step, stepIndex) => (
             <amp-story-page id={section.name + stepIndex} key={section.name + stepIndex}>
-              <amp-story-grid-layer template="cover">
-                <h1>{step.title}</h1>
+              <amp-story-grid-layer template="fill">
                 <amp-img
                   class="contain"
                   src={step.image}
@@ -75,7 +87,16 @@ export default function Blog({ post, authorDetails, prev, next }) {
                   height="600"
                   layout="responsive"
                 ></amp-img>
-                <q>{step.description}</q>
+              </amp-story-grid-layer>
+              <amp-story-grid-layer template="vertical">
+                <div className="transparent-holder">
+                  <p className="hero">{step.title}</p>
+                </div>
+              </amp-story-grid-layer>
+              <amp-story-grid-layer template="vertical" class="bottom">
+                <div className="transparent-holder">
+                  <p>{step.description}</p>
+                </div>
               </amp-story-grid-layer>
             </amp-story-page>
           ))}

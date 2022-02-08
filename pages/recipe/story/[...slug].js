@@ -82,7 +82,11 @@ export default function Blog({ post, authorDetails, prev, next }) {
               <h1 className="transparent-holder">Ingredients</h1>
             </amp-story-grid-layer>
             <amp-story-grid-layer template="vertical" class="center-text">
-              <div className="wrap transparent-holder">{section.ingredients}</div>
+              <div className="wrap transparent-holder">
+                {section.ingredients.split(/\r?\n/).map((ingredient, index) => (
+                  <li key={index}>{ingredient}</li>
+                ))}
+              </div>
             </amp-story-grid-layer>
           </amp-story-page>
           {section.story.map((step, stepIndex) => (

@@ -91,7 +91,7 @@ export default function Blog({ post, authorDetails, prev, next }) {
           </amp-story-page>
           {section.story.map((step, stepIndex) => (
             <amp-story-page id={section.name + stepIndex} key={section.name + stepIndex}>
-              <amp-story-grid-layer template="fill">
+              <amp-story-grid-layer template="fill" class="noedge">
                 <amp-img
                   class="contain"
                   src={step.image}

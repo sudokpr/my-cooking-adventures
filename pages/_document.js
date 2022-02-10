@@ -90,11 +90,6 @@ class MyDocument extends Document {
             .wrap {
               white-space: pre-line;
             }
-            li {
-              line-height: 1em;
-              font-size: 2em;
-              text-align: left;
-            }
 					`}</style>
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">

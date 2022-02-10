@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master
-local_backend: true
+    # local_backend: true
 media_folder: "public/static/images"
 public_folder: "/static/images"
   # media_library:
@@ -49,7 +49,7 @@ collections:
               - label: Description
                 name: description
                 widget: string
-                required: false
+                required: true
               - label: Picture
                 name: image
                 widget: image

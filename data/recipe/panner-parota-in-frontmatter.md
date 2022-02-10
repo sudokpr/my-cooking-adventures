@@ -1,13 +1,13 @@
 ---
-draft: true
+draft: false
 layout: PostFrontMatter
-title: Panner Parota in Frontmatter
-summary: An example post with multi-section recipe, captured entirely in front matter
+title: Panner Parota (Sample page)
+summary: An example post with multi-section recipe
 cover: /static/images/paneer-parota.jpeg
 tags:
   - front-matter
   - multi-section
-date: 2022-02-06T02:29:59.173Z
+date: 2021-12-01T02:29:59.173Z
 subrecipe:
   - name: Panner stuffing
     ingredients: |-
@@ -52,7 +52,7 @@ subrecipe:
       - description: Futhermore, add chilli powder, garam masala, aamchur etc.
         title: Prepare Pizza
         image: /static/images/pizza.jpg
-      - title: 'Saute '
+      - title: "Saute "
         description: Firstly, in a large kadai, add butter and tej leaf. saute till it
           turns aromatic
         image: /static/images/pxl_20210606_135820979.jpg

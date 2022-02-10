@@ -1,6 +1,6 @@
 ---
 draft: true
-layout: PostFrontMatter
+layout: PostSimple
 title: Palak Soup in AMP
 summary: This should descibe palak soup in AMP
 tags:

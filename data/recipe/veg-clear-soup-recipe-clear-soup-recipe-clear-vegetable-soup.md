@@ -3,26 +3,27 @@ layout: PostSimple
 title: Veg Clear Soup recipe / Clear soup recipe / Clear Vegetable Soup
 summary: Super simple Indo - Chinese soup . Quick & Easy to prepare .
 tags:
-  - Vegclearsoup
+  - soup
   - Clearvegetablesoup
-  - Indo-chinesesoup.
+  - Indo-chinese.
 date: 2022-01-25T11:37:19.162Z
 images:
   - /static/images/pxl_20210604_144553158.night.jpg
 ---
+
 # Ingredients
 
-* 1 tsp olive oil / any oil
-* 2 cloves garlic (finely chopped)
-* 1 inch ginger (chopped)
-* ½ cup spring onions (finely chopped)
-* 1 carrot (sliced)
-* 1 cup cabbage (roughly chopped)
-* 1/4 cup broccoli florets 
-* 5 cups water
-* Salt to taste
-* 1 tsp pepper (crushed)
-* 1 tbsp lemon juice ( optional )
+- 1 tsp olive oil / any oil
+- 2 cloves garlic (finely chopped)
+- 1 inch ginger (chopped)
+- ½ cup spring onions (finely chopped)
+- 1 carrot (sliced)
+- 1 cup cabbage (roughly chopped)
+- 1/4 cup broccoli florets
+- 5 cups water
+- Salt to taste
+- 1 tsp pepper (crushed)
+- 1 tbsp lemon juice ( optional )
 
 # Instructions
 
@@ -38,7 +39,7 @@ images:
 
 # How to prepare veg clear soup step by step recipe with photo:
 
-**Step  1 : Firstly, in a thick bottom vessel / kadai heat oil. use olive oil for more healthy option. Saute garlic and ginger on high flame for a minute.**
+**Step 1 : Firstly, in a thick bottom vessel / kadai heat oil. use olive oil for more healthy option. Saute garlic and ginger on high flame for a minute.**
 
 ![](/static/images/pxl_20210604_143240298.night.jpg)
 

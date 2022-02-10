@@ -32,8 +32,8 @@ export default function Home({ posts }) {
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags, images = [] } = frontMatter
-            let heroImage
+            const { slug, date, title, summary, tags, images = [], cover } = frontMatter
+            let heroImage = cover
             if (images.length > 0) {
               heroImage = images[0]
             }
@@ -73,13 +73,13 @@ export default function Home({ posts }) {
                           {summary}
                         </div>
                       </div>
-                      <div className="text-base font-medium leading-6">
+                      <div className="text-base font-medium leading-6 flex-2">
                         <Link
                           href={`/recipe/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                           aria-label={`Read "${title}"`}
                         >
-                          Read more &rarr;
+                          Full Recipe &rarr;
                         </Link>
                       </div>
                     </div>

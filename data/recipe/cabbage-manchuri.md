@@ -12,32 +12,33 @@ date: 2022-01-27T11:11:19.927Z
 images:
   - /static/images/cabbage_manchuri-27.jpg
 ---
+
 # Ingredients
 
-* 2 cup cabbage (finely chopped)
-* 1 tsp Kashmiri red chilli powder / lal mirch powder 
-* 1/2 tsp ginger garlic paste
-* 1/2 tsp garam masala
-* 1/2 tsp salt
-* 1/2 cup cornflour
-* 1/2 cup maida / plain flour / refined flour / all-purpose flour
-* 2 tbsp water
-* oil for deep frying
+- 2 cup cabbage (finely chopped)
+- 1 tsp Kashmiri red chilli powder / lal mirch powder
+- 1/2 tsp ginger garlic paste
+- 1/2 tsp garam masala
+- 1/2 tsp salt
+- 1/2 cup cornflour
+- 1/2 cup maida / plain flour / refined flour / all-purpose flour
+- 2 tbsp water
+- oil for deep frying
 
 **Other ingredients:**
 
-* 2 tbsp oil
-* 2 clove garlic (finely chopped)
-* 4 tbsp spring onions (chopped)
-* 1/2 onion (finely chopped)
-* 1 green chilli (slit)
-* 1/2 capsicum 
-* 1 tsp chilli sauce
-* 2 tbsp soy sauce
-* 1/2 tbsp vinegar
-* 1/4 tsp salt
-* 2 tbsp [](https://hebbarskitchen.com/tomato-sauce-recipe-tomato-ketchup/)tomato sauce
-* 1/4 tsp pepper (crushed)
+- 2 tbsp oil
+- 2 clove garlic (finely chopped)
+- 4 tbsp spring onions (chopped)
+- 1/2 onion (finely chopped)
+- 1 green chilli (slit)
+- 1/2 capsicum
+- 1 tsp chilli sauce
+- 2 tbsp soy sauce
+- 1/2 tbsp vinegar
+- 1/4 tsp salt
+- 2 tbsp [](https://hebbarskitchen.com/tomato-sauce-recipe-tomato-ketchup/)tomato sauce
+- 1/4 tsp pepper (crushed)
 
 # INSTRUCTIONS
 

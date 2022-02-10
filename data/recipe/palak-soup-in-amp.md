@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: PostSimple
 title: Palak Soup in AMP
 summary: This should descibe palak soup in AMP
@@ -19,7 +20,7 @@ ingredients: |-
   1 tsp fresh cream
 story:
   - cover: false
-    title: "Saute "
+    title: 'Saute '
     description: Firstly, in a large kadai, add butter and tej leaf. saute till it
       turns aromatic
     image: /static/images/pxl_20210606_135820979.jpg

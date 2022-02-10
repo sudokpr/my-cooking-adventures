@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' abhiruchi.disqus.com unpkg.com identity.netlify.com wonderful-heyrovsky-6e3888.netlify.app www.googletagmanager.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' abhiruchi.disqus.com unpkg.com identity.netlify.com wonderful-heyrovsky-6e3888.netlify.app www.googletagmanager.com cdn.ampproject.org;
   style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
   img-src * blob: data:;
   media-src 'none';
@@ -53,6 +53,14 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  experimental: {
+    amp: {
+      skipValidation: true,
+    },
+  },
+  images: {
+    domains: ['unsplash.it'],
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {

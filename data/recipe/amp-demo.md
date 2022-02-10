@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: PostSimple
 title: Veg Clear Soup recipe / Clear soup recipe / Clear Vegetable Soup
 summary: Super simple Indo - Chinese soup . Quick & Easy to prepare .

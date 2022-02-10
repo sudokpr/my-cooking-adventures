@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: PostFrontMatter
 title: Panner Parota in Frontmatter
 summary: An example post with multi-section recipe, captured entirely in front matter

@@ -52,13 +52,10 @@ export default function Blog({ post, authorDetails, prev, next }) {
     <amp-story standalone supports-landscape title={title} published="kirthi">
       <amp-story-page id="cover">
         <amp-story-grid-layer template="fill">
-          <amp-img class="contain" src={cover} width="700" height="900" layout="responsive" />
+          <amp-img src={cover} width="700" height="900" layout="responsive" />
         </amp-story-grid-layer>
-        <amp-story-grid-layer template="contain">
+        <amp-story-grid-layer template="vertical">
           <h1>{title}</h1>
-          {authorDetails.map((author, index) => (
-            <p key={index}> {author.name} </p>
-          ))}
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -91,25 +88,45 @@ export default function Blog({ post, authorDetails, prev, next }) {
           </amp-story-page>
           {section.story.map((step, stepIndex) => (
             <amp-story-page id={section.name + stepIndex} key={section.name + stepIndex}>
-              <amp-story-grid-layer template="fill" class="noedge">
-                <amp-img
-                  class="contain"
-                  src={step.image}
-                  width="900"
-                  height="600"
-                  layout="responsive"
-                ></amp-img>
-              </amp-story-grid-layer>
-              <amp-story-grid-layer template="vertical">
-                <div className="transparent-holder">
-                  <p className="hero">{step.title}</p>
-                </div>
-              </amp-story-grid-layer>
-              <amp-story-grid-layer template="vertical" class="bottom">
-                <div className="transparent-holder">
-                  <p>{step.description}</p>
-                </div>
-              </amp-story-grid-layer>
+              {step.isLandscape ? (
+                <>
+                  <amp-story-grid-layer template="fill">
+                    <amp-img
+                      src={step.image}
+                      width="900"
+                      height="600"
+                      layout="responsive"
+                    ></amp-img>
+                  </amp-story-grid-layer>
+                  <amp-story-grid-layer template="vertical" class="bottom">
+                    <div className="transparent-holder">
+                      <p>{step.description}</p>
+                    </div>
+                  </amp-story-grid-layer>
+                </>
+              ) : (
+                <>
+                  <amp-story-grid-layer template="fill">
+                    <amp-img
+                      class="contain"
+                      src={step.image}
+                      width="900"
+                      height="600"
+                      layout="responsive"
+                    ></amp-img>
+                  </amp-story-grid-layer>
+                  <amp-story-grid-layer template="vertical">
+                    <div className="transparent-holder">
+                      <p className="hero">{step.title}</p>
+                    </div>
+                  </amp-story-grid-layer>
+                  <amp-story-grid-layer template="vertical" class="bottom">
+                    <div className="transparent-holder">
+                      <p>{step.description}</p>
+                    </div>
+                  </amp-story-grid-layer>
+                </>
+              )}
             </amp-story-page>
           ))}
         </>

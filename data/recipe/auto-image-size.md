@@ -1,8 +1,8 @@
 ---
 draft: false
 layout: PostFrontMatter
-summary: POC of auto image size
 title: Auto image size
+summary: POC of auto image size
 cover: /static/images/cabbage_manchuri-26.jpg
 tags:
   - auto-image-size

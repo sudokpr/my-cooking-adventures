@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: PostSimple
+layout: PostFrontMatter
 title: Cupcake / Vanilla Cupcakes / Eggless cupcake
 summary: Simple cupcake recipe
 cover: /static/images/cupcake-17.jpg

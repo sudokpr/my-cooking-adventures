@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: PostSimple
 title: Cupcake / Vanilla Cupcakes / Eggless cupcake
 summary: Simple cupcake recipe

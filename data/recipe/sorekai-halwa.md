@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: PostSimple
 title: Sorekai halwa
 summary: easy and quick sorekai or bottle gourd halwa

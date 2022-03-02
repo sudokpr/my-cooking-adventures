@@ -1,6 +1,6 @@
 ---
 draft: false
-layout: PostSimple
+layout: PostFrontMatter
 title: Sorekai halwa
 summary: easy and quick sorekai or bottle gourd halwa
 cover: /static/images/sorekaihalwa-7.jpg

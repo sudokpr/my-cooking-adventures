@@ -17,7 +17,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "PostSimple"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "PostFrontMatter"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Cover Image", name: "cover", widget: "image"}
@@ -42,14 +42,14 @@ collections:
             widget: list
             summary: "{{fields.title}} - {{fields.description}}"
             fields:
-              - label: Title
-                name: title
-                widget: string
-                required: false
-              - label: Description
+              - label: Description (Required)
                 name: description
                 widget: string
                 required: true
-              - label: Picture
+              - label: Picture (Required)
                 name: image
                 widget: image
+              - label: Title (Optional)
+                name: title
+                widget: string
+                required: false

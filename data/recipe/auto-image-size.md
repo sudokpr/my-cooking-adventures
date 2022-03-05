@@ -38,5 +38,17 @@ subrecipe:
         description: mix-everything
         width: 499
         height: 600
+      - description: An another portrait image
+        image: /static/images/cake-heart.jpeg
+        width: 3024
+        height: 4032
+      - description: A portriat image
+        image: /static/images/mix-flour.jpeg
+        width: 3648
+        height: 5472
+      - image: /static/images/panipuri.jpg
+        description: Looks lengthier
+        width: 2160
+        height: 3840
     name: Preparing fried veg balls
 ---

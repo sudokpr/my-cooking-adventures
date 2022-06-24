@@ -68,4 +68,31 @@ subrecipe:
       Check the seasoning and adjust it accordingly and cook till the sauce thickens slightly.
 
       Turn off the heat and sauce is ready . This sauce can be made ahead and stored in the fridge for up-to a week.
+
+
+
+  - name: Pasta Stuffing recipe
+    ingredients: |-
+      Broccoli - few florets
+      Capsicum / Bell pepper - 1 9 Any colour)
+      Paneer / Cottage cheese - 200gm
+      Processed Cheese - 1/4 cup
+      Mozzarella cheese - 1/4 cup
+      Oregano - 1tsp
+      Salt 
+    instructions: >+
+      Take few florets of broccoli.... blanched chop them up into small florets
+      this would be 1/2 cup of florets.
+
+      Roasted bell pepper - roast the capsicum on the naked flame , pour some water on it get rid of burnt skin. Roasting enhances the flavor of the pepper. cut it get rid of seeds chop it up into smaller pieces.
+
+      Grate the paneer into a bowl, add in the bell pepper and the broccoli.
+
+      Add 1/4 cup of grated processed cheese.
+
+      Add 1/4 cup of grated Mozzarella cheese
+
+      Add 1 tsp of oregano and bit of salt  
+
+      Mix it up , Add in some fresh cream or malai from milk (Optional) Keep it aside your stuffing is ready.
 ---

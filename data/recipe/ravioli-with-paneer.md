@@ -32,14 +32,14 @@ subrecipe:
   - name: Sauce
     ingredients: |-
       Tomatoes - 4 large
-      Garlic - 4 p[iece
+      Garlic - 4 piece
       Pepper - 1/2 tbsp
       Red chilly - 1 or 1/2 tsp red chilli flakes
       Salt - 1/2 tsp
       Oregano - 1/2 tsp
       Oil - 5 tbsp
       Mint leaves - few
-      Tomato ketchup - 2tbsp
+      Tomato ketchup - 2 tbsp
     instructions: >+
       For the sauce  take 4 large tomatoes chopped roughly 
 
@@ -47,7 +47,7 @@ subrecipe:
 
       1/2 tbsp of crushed pepper
 
-      1 red chilly or 1/2 tsb of chilli flakes
+      1 red chilly or 1/2 tsp of chilli flakes
 
       Put all together in a mixer jar 
 

@@ -31,7 +31,7 @@ subrecipe:
     story: []
   - name: Sauce
     ingredients: |-
-      Tomatoes - 4 large
+      Tomatoes - 4 
       Garlic - 4 piece
       Pepper - 1/2 tbsp
       Red chilly - 1 or 1/2 tsp red chilli flakes

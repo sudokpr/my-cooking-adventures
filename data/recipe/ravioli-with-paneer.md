@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: PostFrontMatter
 title: Ravioli with paneer
 summary: Ravioli are a type of pasta comprising a filling enveloped in thin
@@ -18,7 +18,7 @@ subrecipe:
       Oil - 2 tbsp
       Warm water 
     instructions: >-
-      In a bowl take 1cup of semolina/suji of fine variety
+      In a bowl take 1 cup of semolina/suji of fine variety
 
       Add in 1 cup of all purpose flour
 
@@ -28,4 +28,5 @@ subrecipe:
 
       Add in warm water to make a stiff dough, cover it and let it rest for 20 mins.
     name: Pasta dough
+    story: []
 ---

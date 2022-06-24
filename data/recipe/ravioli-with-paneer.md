@@ -29,7 +29,43 @@ subrecipe:
       Add in warm water to make a stiff dough, cover it and let it rest for 20 mins.
     name: Pasta dough
     story: []
-  - name: dg
-    ingredients: gdg
-    instructions: gdg
+  - name: Sauce
+    ingredients: |-
+      Tomatoes - 4 large
+      Garlic - 4 p[iece
+      Pepper - 1/2 tbsp
+      Red chilly - 1 or 1/2 tsp red chilli flakes
+      Salt - 1/2 tsp
+      Oregano - 1/2 tsp
+      Oil - 5 tbsp
+      Mint leaves - few
+      Tomato ketchup - 2tbsp
+    instructions: >+
+      For the sauce  take 4 large tomatoes chopped roughly 
+
+      4 pieces of garlic
+
+      1/2 tbsp of crushed pepper
+
+      1 red chilly or 1/2 tsb of chilli flakes
+
+      Put all together in a mixer jar 
+
+      Add 1/2 tsp of salt
+
+      Add 1/2 tsp dried oregano
+
+      1 tbsp of extra virgin olive oil 
+
+      Make a paste out of it. Add few mint leaves and blend one more time.
+
+      Heat some extra virgin olive oil in a kadai
+
+      Pour the tomato paste, cook on low to medium heat for a min or two.
+
+      Add in 2 tbsp of tomato ketchup and mix well.
+
+      Check the seasoning and adjust it accordingly and cook till the sauce thickens slightly.
+
+      Turn off the heat and sauce is ready . This sauce can be made ahead and stored in the fridge for up-to a week.
 ---

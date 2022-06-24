@@ -29,4 +29,7 @@ subrecipe:
       Add in warm water to make a stiff dough, cover it and let it rest for 20 mins.
     name: Pasta dough
     story: []
+  - name: dg
+    ingredients: gdg
+    instructions: gdg
 ---

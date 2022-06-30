@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 layout: PostFrontMatter
 title: Ravioli with paneer
 summary: Ravioli are a type of pasta comprising a filling enveloped in thin
@@ -80,7 +80,7 @@ subrecipe:
       Mozzarella cheese - 1/4 cup
       Oregano - 1tsp
       Salt 
-    instructions: >+
+    instructions: >
       Take few florets of broccoli.... blanched chop them up into small florets
       this would be 1/2 cup of florets.
 

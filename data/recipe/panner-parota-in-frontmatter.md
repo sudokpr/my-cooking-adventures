@@ -27,7 +27,6 @@ subrecipe:
       - image: /static/images/panner.jpeg
         title: Crumble the panner
         description: crumble the panner to form a mixture
-        isLandscape: true
       - description: Mix panner with other ingredients
         image: /static/images/mix-flour.jpeg
   - name: Chapathi
@@ -47,28 +46,22 @@ subrecipe:
       - description: Mix flour
         title: Prepare flour
         image: /static/images/mix-flour.jpeg
-        isLandscape: false
       - description: Mix dough
         title: Prepare dough
         image: /static/images/mix-dough.jpeg
-        isLandscape: true
       - description: Futhermore, add chilli powder, garam masala, aamchur etc.
         title: Prepare Pizza
         image: /static/images/pizza.jpg
-        isLandscape: false
-      - title: 'Saute '
+      - title: "Saute "
         description: Firstly, in a large kadai, add butter and tej leaf. saute till it
           turns aromatic
         image: /static/images/pxl_20210606_135820979.jpg
-        isLandscape: true
       - description: Now add finely chopped onions  and garlic. saute till they turn
           golden brown.
         title: Onion and Garlic
         image: /static/images/roti-kofta.jpeg
-        isLandscape: true
       - description: Add half cup of milk, salt as per taste also add some water to
           adjust the consistency.
         title: Cream
         image: /static/images/pxl_20220123_044211869.night.jpg
-        isLandscape: false
 ---

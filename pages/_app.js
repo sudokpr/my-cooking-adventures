@@ -3,8 +3,6 @@ import '@/css/prism.css'
 
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
-import { useRouter } from 'next/router'
-import React from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
@@ -15,8 +13,6 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
 export default function App({ Component, pageProps }) {
-  const router = useRouter()
-  const Layout = router.asPath.startsWith('/cms') ? React.Fragment : LayoutWrapper
   return (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
@@ -24,9 +20,9 @@ export default function App({ Component, pageProps }) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
-      <Layout>
+      <LayoutWrapper>
         <Component {...pageProps} />
-      </Layout>
+      </LayoutWrapper>
     </ThemeProvider>
   )
 }

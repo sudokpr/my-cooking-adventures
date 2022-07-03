@@ -9,7 +9,7 @@ const ContentSecurityPolicy = `
   style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
   img-src * blob: data:;
   media-src 'none';
-  connect-src *;
+  connect-src * blob: data:;;
   font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;
   frame-src disqus.com
 `

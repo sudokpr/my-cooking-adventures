@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: PostFrontMatter
 title: Ravioli with paneer
 summary: Ravioli are a type of pasta comprising a filling enveloped in thin
@@ -16,7 +16,7 @@ subrecipe:
       All purpose flour -  1 cup 
       Salt 1/2 tsp
       Oil - 2 tbsp
-      Warm water 
+      Warm water
     instructions: >-
       In a bowl take 1 cup of semolina/suji of fine variety
 
@@ -30,6 +30,7 @@ subrecipe:
     name: Pasta dough
     story: []
   - name: Sauce
+    story: []
     ingredients: |-
       Tomatoes - 4 
       Garlic - 4 piece
@@ -72,6 +73,7 @@ subrecipe:
 
 
   - name: Pasta Stuffing recipe
+    story: []
     ingredients: |-
       Broccoli - few florets
       Capsicum / Bell pepper - 1 9 Any colour)
@@ -79,7 +81,7 @@ subrecipe:
       Processed Cheese - 1/4 cup
       Mozzarella cheese - 1/4 cup
       Oregano - 1tsp
-      Salt 
+      Salt
     instructions: >
       Take few florets of broccoli.... blanched chop them up into small florets
       this would be 1/2 cup of florets.

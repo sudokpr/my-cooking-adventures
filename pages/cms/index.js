@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import RecipePreview from './previews/recipe_preview'
 
 const Admin = () => {
   useEffect(() => {
@@ -76,6 +77,8 @@ const Admin = () => {
         name: 'preSave',
         handler: saveImageDimensions,
       })
+      CMS.registerPreviewStyle('/tailwind.css')
+      CMS.registerPreviewTemplate('Recipe', RecipePreview)
     })()
   }, [])
 

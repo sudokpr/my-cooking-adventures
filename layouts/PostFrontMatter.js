@@ -9,11 +9,13 @@ import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { date, title, subrecipe = [], cover } = frontMatter
+  const { date, title, subrecipe = [], cover, isPreview } = frontMatter
 
   return (
     <SectionContainer>
-      <BlogSEO url={`${siteMetadata.siteUrl}/recipe/${frontMatter.slug}`} {...frontMatter} />
+      {!isPreview && (
+        <BlogSEO url={`${siteMetadata.siteUrl}/recipe/${frontMatter.slug}`} {...frontMatter} />
+      )}
       <ScrollTopAndComment />
       <article>
         <div>

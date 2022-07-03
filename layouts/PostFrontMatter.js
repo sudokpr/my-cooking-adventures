@@ -9,13 +9,11 @@ import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { date, title, subrecipe = [], cover, isPreview } = frontMatter
+  const { date, title, subrecipe = [], cover } = frontMatter
 
   return (
     <SectionContainer>
-      {!isPreview && (
-        <BlogSEO url={`${siteMetadata.siteUrl}/recipe/${frontMatter.slug}`} {...frontMatter} />
-      )}
+      <BlogSEO url={`${siteMetadata.siteUrl}/recipe/${frontMatter.slug}`} {...frontMatter} />
       <ScrollTopAndComment />
       <article>
         <div>
@@ -41,15 +39,13 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">
                 {cover && (
-                  <div className="">
-                    <Image
-                      src={cover}
-                      width="600"
-                      height="600"
-                      layout="responsive"
-                      objectFit="cover"
-                    />
-                  </div>
+                  <Image
+                    src={cover}
+                    width="900"
+                    height="900"
+                    layout="responsive"
+                    objectFit="cover"
+                  />
                 )}
                 {subrecipe.map((section, index) => (
                   <div key={index}>
@@ -66,18 +62,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <li key={index}> {instruction} </li>
                       ))}
                     </ol>
-                    <h3 className="mb-10">
-                      {' '}
-                      Pictorial Instructions
-                      <a
-                        href={`/recipe/story/${frontMatter.slug}`}
-                        className="ml-3 text-base"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        View in cooking mode
-                      </a>
-                    </h3>
+                    <h3 className="mb-10"> Pictorial Instructions </h3>
                     <div className="container grid lg:grid-cols-2 gap-6 mx-auto pt-1">
                       {section.story.map((step, index) => (
                         <div className="w-full bg-gray-200  dark:bg-gray-700" key={index}>

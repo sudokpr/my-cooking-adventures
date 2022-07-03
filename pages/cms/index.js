@@ -77,7 +77,7 @@ const Admin = () => {
         name: 'preSave',
         handler: saveImageDimensions,
       })
-      CMS.registerPreviewStyle('/css/dbae843c5beb3bea.css')
+      CMS.registerPreviewStyle('static/css/dbae843c5beb3bea.css')
       CMS.registerPreviewTemplate('Recipe', RecipePreview)
     })()
   }, [])

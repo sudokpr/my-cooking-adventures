@@ -4,6 +4,9 @@ import RecipePreview from './previews/recipe_preview'
 const Admin = () => {
   useEffect(() => {
     ;(async () => {
+      const identity = (await import('netlify-identity-widget')).default
+      window.netlifyIdentity = identity
+      identity.init()
       const CMS = (await import('netlify-cms-app')).default
       const config =
         process.env.NODE_ENV === 'development'

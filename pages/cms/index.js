@@ -14,7 +14,7 @@ const Admin = () => {
           : {
               backend: {
                 name: 'git-gateway',
-                branch: process.env.GATSBY_BRANCH || 'main',
+                branch: process.env.GIT_BRANCH || 'master',
               },
             }
 
@@ -80,7 +80,7 @@ const Admin = () => {
         name: 'preSave',
         handler: saveImageDimensions,
       })
-      CMS.registerPreviewStyle('static/css/dbae843c5beb3bea.css')
+      CMS.registerPreviewStyle('static/css/2158a2ca8ff4da39.css')
       CMS.registerPreviewTemplate('Recipe', RecipePreview)
     })()
   }, [])

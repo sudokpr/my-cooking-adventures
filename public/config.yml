@@ -53,3 +53,10 @@ collections:
               - label: Picture
                 name: image
                 widget: image
+  - name: "Projects"
+    label: "Projects"
+    folder: "data/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget:"string"}

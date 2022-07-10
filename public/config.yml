@@ -17,7 +17,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "PostSimple"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "PostFrontMatter"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Cover Image", name: "cover", widget: "image"}
@@ -53,10 +53,3 @@ collections:
               - label: Picture
                 name: image
                 widget: image
-  - name: "Projects"
-    label: "Projects"
-    folder: "data/projects"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget:"string"}

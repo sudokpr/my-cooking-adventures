@@ -196,4 +196,48 @@ subrecipe:
 
       Ravioli ready to serve.
     ingredients: Gathering all together
+    story:
+      - description: The dough has been well rested, knead it slightly.
+        image: /static/images/ravioli-26.jpg
+      - description: Roll them out as thinly as you can.
+        image: /static/images/ravioli-28.jpg
+      - description: Using cookie cutter or a lid or a small bowl cut out circles. Keep
+          this aside
+        image: /static/images/ravioli-29.jpg
+      - description: Make sure to get even number of circles.
+        image: /static/images/ravioli-30.jpg
+      - description: Line up the circles and just brush them with water.
+        image: /static/images/ravioli-32.jpg
+      - description: Place a small amount of filling at the center of each circle.
+        image: /static/images/ravioli-34.jpg
+      - description: Place another circle on top as a cover.
+        image: /static/images/ravioli-35.jpg
+      - description: Once each is done you could press the top half bottom half. Press
+          along the sides to seal it.
+        image: /static/images/ravioli-36.jpg
+      - description: Once they are all done use a fork to further seal the edges.
+        image: /static/images/ravioli-37.jpg
+      - description: Now to the boiling water add in some salt.
+        image: /static/images/ravioli-39.jpg
+      - description: Now add in the prepared ravioli
+        image: /static/images/ravioli-40.jpg
+      - description: They will sink to the bottom first.
+        image: /static/images/ravioli-41.jpg
+      - description: Once they are cooked , they will start floating to the top.
+        image: /static/images/ravioli-43.jpg
+      - description: They have started floating up , lets get them out.
+        image: /static/images/ravioli-44.jpg
+      - description: Add them into another pan
+        image: /static/images/ravioli-46.jpg
+      - description: Pour bit of sauce, Some olive oil
+        image: /static/images/ravioli-47.jpg
+      - description: Toss them up, add in a bit of pasta water
+        image: /static/images/ravioli-49.jpg
+      - description: Cook for minute. Serve on to the plate.
+        image: /static/images/ravioli-50.jpg
+      - description: Drizzle the left over sauce from the pan. Garnish with some cheese
+          on top and some mint leaves.
+        image: /static/images/ravioli-51.jpg
+      - description: Ravioli ready to serve.
+        image: /static/images/ravioli-53.jpg
 ---

@@ -40,7 +40,7 @@ subrecipe:
         image: /static/images/ravioli-3.jpg
       - description: Dough will be ready, cover it and let it rest for 20 mins.
         image: /static/images/pxl_20210531_132001465.night-collage.jpg
-  - name: Sauce
+  - name: Pasta Sauce
     story:
       - description: (Put all together in a mixer jar) 4 large tomatoes chopped roughly.
           4 pieces of garlic, 1/2 tbsp of crushed pepper, 1 red chilly or 1/2
@@ -104,7 +104,27 @@ subrecipe:
 
 
   - name: Pasta Stuffing recipe
-    story: []
+    story:
+      - description: "Take few florets of broccoli.... blanched chop them up into small
+          florets this would be 1/2 cup of florets.Roasted bell pepper - roast
+          the capsicum on the naked flame. "
+        image: /static/images/ravioli-17.jpg
+      - description: Pour some water on it get rid of burnt skin. Roasting enhances the
+          flavor of the pepper. Cut it get rid of seeds chop it up into smaller
+          pieces.
+        image: /static/images/ravioli-18.jpg
+      - description: Grate the paneer into a bowl.
+        image: /static/images/ravioli-19.jpg
+      - description: Add in the bell pepper and the broccoli.
+        image: /static/images/ravioli-22.jpg
+      - description: Add 1/4 cup of grated processed cheese and 1/4 cup of grated
+          Mozzarella cheese
+        image: /static/images/ravioli-20.jpg
+      - description: Add 1 tsp of oregano and bit of salt
+        image: /static/images/ravioli-23.jpg
+      - description: Mix it up , Add in some fresh cream or malai from milk (Optional)
+          Keep it aside your stuffing is ready.
+        image: /static/images/ravioli-25.jpg
     ingredients: |-
       Broccoli - few florets
       Capsicum / Bell pepper - 1 9 Any colour)
@@ -117,7 +137,9 @@ subrecipe:
       Take few florets of broccoli.... blanched chop them up into small florets
       this would be 1/2 cup of florets.
 
-      Roasted bell pepper - roast the capsicum on the naked flame , pour some water on it get rid of burnt skin. Roasting enhances the flavor of the pepper. cut it get rid of seeds chop it up into smaller pieces.
+      Roasted bell pepper - roast the capsicum on the naked flame , pour some water on it get rid of burnt skin. Roasting enhances the flavor of the pepper. 
+
+      Cut it get rid of seeds chop it up into smaller pieces.
 
       Grate the paneer into a bowl, add in the bell pepper and the broccoli.
 

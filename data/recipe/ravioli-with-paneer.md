@@ -150,4 +150,50 @@ subrecipe:
       Add 1 tsp of oregano and bit of salt  
 
       Mix it up , Add in some fresh cream or malai from milk (Optional) Keep it aside your stuffing is ready.
+  - name: Ravioli / Pasta
+    instructions: >
+      The dough has been well rested, knead it slightly.
+
+      Make large balls out of the dough.
+
+      Roll them out as thinly as you can.
+
+      Using cookie cutter or a lid or a small bowl cut out circles. Keep this aside
+
+      Make sure to get even number of circles.
+
+      Gather up the leftovers and roll them out again, keep doing this till all of dough has been cut into circles.
+
+      Line up the circles and just brush them with water.
+
+      Place a small amount of filling at the center of each circle.
+
+      Place another circle on top as a cover.
+
+      Once each is done you could press the top half bottom half. Press along the sides to seal it.
+
+      Once they are all done use a fork to further seal the edges.
+
+      Now to the boiling water add in some salt.
+
+      Now add in the prepared ravioli
+
+      They will sink to the bottom first.
+
+      Once they are cooked , they will start floating to the top.
+
+      They have started floating up , lets get them out.
+
+      Add them into another pan
+
+      Pour bit of sauce, Some olive oil
+
+      Toss them up, add in a bit of pasta water
+
+      Cook for minute. Serve on to the plate.
+
+      Drizzle the left over sauce from the pan. Garnish with some cheese on top and some mint leaves.
+
+      Ravioli ready to serve.
+    ingredients: Gathering all together
 ---

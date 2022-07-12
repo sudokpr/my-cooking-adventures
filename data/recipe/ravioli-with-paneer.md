@@ -1,7 +1,7 @@
 ---
 draft: true
 layout: PostFrontMatter
-title: Ravioli with paneer
+title: Ravioli
 summary: Ravioli are a type of pasta comprising a filling enveloped in thin
   pasta doughUsually served in broth or with a sauce, they originated as a
   traditional food in Italian cuisine.
@@ -28,9 +28,40 @@ subrecipe:
 
       Add in warm water to make a stiff dough, cover it and let it rest for 20 mins.
     name: Pasta dough
-    story: []
+    story:
+      - description: In a bowl take 1 cup of semolina/suji of fine variety
+        image: /static/images/ravioli-0.jpg
+      - description: Add in 1 cup of all purpose flour
+        image: /static/images/ravioli-1.jpg
+      - description: "Season with salt and add 2 tbsp of extra virgin olive oil ( you
+          could use vegetable oil also)quick mix "
+        image: /static/images/ravioli-2.jpg
+      - description: Add in warm water to make a stiff dough.
+        image: /static/images/ravioli-3.jpg
+      - description: Dough will be ready, cover it and let it rest for 20 mins.
+        image: /static/images/pxl_20210531_132001465.night-collage.jpg
   - name: Sauce
-    story: []
+    story:
+      - description: (Put all together in a mixer jar) 4 large tomatoes chopped roughly.
+          4 pieces of garlic, 1/2 tbsp of crushed pepper, 1 red chilly or 1/2
+          tsp of chilli flakes.
+        image: /static/images/ravioli-8.jpg
+      - description: "Add 1/2 tsp of salt, 1/2 tsp dried oregano and 1 tbsp of extra
+          virgin olive oil "
+        image: /static/images/ravioli-9.jpg
+      - description: Make a paste out of it. Add few mint leaves and blend one more time.
+        image: /static/images/ravioli-11.jpg
+      - description: Heat some extra virgin olive oil in a kadai. Pour the tomato paste,
+          cook on low to medium heat for a min or two.
+        image: /static/images/ravioli-12.jpg
+      - description: Add in 2 tbsp of tomato ketchup and mix well.
+        image: /static/images/ravioli-14.jpg
+      - description: Check the seasoning and adjust it accordingly and cook till the
+          sauce thickens slightly.
+        image: /static/images/ravioli-15.jpg
+      - description: Turn off the heat and sauce is ready . This sauce can be made ahead
+          and stored in the fridge for up-to a week.
+        image: /static/images/ravioli-16.jpg
     ingredients: |-
       Tomatoes - 4 
       Garlic - 4 piece
@@ -42,7 +73,7 @@ subrecipe:
       Mint leaves - few
       Tomato ketchup - 2 tbsp
     instructions: >+
-      For the sauce  take 4 large tomatoes chopped roughly 
+      For the sauce, 4 large tomatoes chopped roughly.
 
       4 pieces of garlic
 

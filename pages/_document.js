@@ -35,7 +35,7 @@ class MyDocument extends Document {
           />
           <style amp-custom>{`
 						amp-story {
-							font-family: 'Oswald',sans-serif;
+							font-family: Oswald,sans-serif;
 								color: #000;
 							}
 						amp-story-page {
@@ -44,12 +44,11 @@ class MyDocument extends Document {
 						h1 {
 							font-weight: bold;
 							font-size: 2.875em;
-							font-weight: normal;
 							line-height: 1.174;
 						}
 						p {
-							font-weight: normal;
-							font-size: 1.3em;
+							font-weight: bold;
+							font-size: 1.5em;
 							line-height: 1.5em;
 							color: #000;
 						}

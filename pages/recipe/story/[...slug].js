@@ -51,38 +51,41 @@ export default function Blog({ post, authorDetails, prev, next }) {
   return (
     <amp-story standalone supports-landscape title={title} published="kirthi">
       <amp-story-page id="cover">
-        <amp-story-grid-layer template="fill">
+        <amp-story-grid-layer template="fill" position="landscape-half-left">
           <amp-img src={cover} width="700" height="900" layout="responsive" />
         </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <h1>{title}</h1>
+        <amp-story-grid-layer
+          className="noedge center-text"
+          template="vertical"
+          position="landscape-half-right"
+        >
+          <div className="transparent-holder hero">{title}</div>
         </amp-story-grid-layer>
       </amp-story-page>
 
       {subrecipe.map((section, index) => (
         <>
-          <amp-story-page id={section.name} key={section.name}>
-            <amp-story-grid-layer template="thirds" class="center-text">
-              <h1
-                grid-area="middle-third"
-                className="banner-text"
-                animate-in="fly-in-top"
-                animate-in-duration="1.5s"
-              >
-                {' '}
-                {section.name}{' '}
-              </h1>
-            </amp-story-grid-layer>
-          </amp-story-page>
+          {section.name && (
+            <amp-story-page id={section.name} key={section.name}>
+              <amp-story-grid-layer template="thirds" className="center-text">
+                <h1 grid-area="middle-third" className="banner-text">
+                  {' '}
+                  {section.name}{' '}
+                </h1>
+              </amp-story-grid-layer>
+            </amp-story-page>
+          )}
           <amp-story-page id={section.name + 'ingredients'} key={section.name + 'ingrdients'}>
-            <amp-story-grid-layer template="vertical">
-              <h1 className="transparent-holder">Ingredients</h1>
-            </amp-story-grid-layer>
-            <amp-story-grid-layer template="vertical" class="center-text">
-              <div className="wrap transparent-holder">
-                {section.ingredients.split(/\r?\n/).map((ingredient, index) => (
-                  <li key={index}>{ingredient}</li>
-                ))}
+            <amp-story-grid-layer template="thirds">
+              <div grid-area="upper-third">
+                <h1>Ingredients</h1>
+              </div>
+              <div grid-area="middle-third">
+                <div className="wrap">
+                  {section.ingredients.split(/\r?\n/).map((ingredient, index) => (
+                    <li key={index}>{ingredient}</li>
+                  ))}
+                </div>
               </div>
             </amp-story-grid-layer>
           </amp-story-page>
@@ -106,49 +109,6 @@ export default function Blog({ post, authorDetails, prev, next }) {
                   </amp-story-grid-layer>
                 </>
                 )
-              </amp-story-page>
-              <amp-story-page id={'size' + section.name + stepIndex} key={section.name + stepIndex}>
-                <>
-                  <amp-story-grid-layer template="fill">
-                    <amp-img
-                      src={step.image}
-                      width={step.width}
-                      height={step.height}
-                      layout="fixed"
-                    ></amp-img>
-                  </amp-story-grid-layer>
-                  <amp-story-grid-layer template="vertical" class="bottom">
-                    <div className="transparent-holder">
-                      <p>{step.description}</p>
-                      <p>size based on image</p>
-                    </div>
-                  </amp-story-grid-layer>
-                </>
-                )
-              </amp-story-page>
-              <amp-story-page id={'dpl' + section.name + stepIndex} key={section.name + stepIndex}>
-                <>
-                  <amp-story-grid-layer template="fill">
-                    <amp-img
-                      class="contain"
-                      src={step.image}
-                      width={step.width}
-                      height={step.height}
-                      layout="responsive"
-                    ></amp-img>
-                  </amp-story-grid-layer>
-                  <amp-story-grid-layer template="vertical">
-                    <div className="transparent-holder">
-                      <p className="hero">{step.title}</p>
-                    </div>
-                  </amp-story-grid-layer>
-                  <amp-story-grid-layer template="vertical" class="bottom">
-                    <div className="transparent-holder">
-                      <p>{step.width + '/' + step.height}</p>
-                      <p>{step.width / step.height}</p>
-                    </div>
-                  </amp-story-grid-layer>
-                </>
               </amp-story-page>
             </>
           ))}

@@ -104,7 +104,6 @@ export default function Blog({ post, authorDetails, prev, next }) {
                   <amp-story-grid-layer template="vertical" class="bottom">
                     <div className="transparent-holder">
                       <p>{step.description}</p>
-                      <p>fixed size</p>
                     </div>
                   </amp-story-grid-layer>
                 </>

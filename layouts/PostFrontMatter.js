@@ -56,15 +56,21 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     <h2> {section.name} </h2>
                     <h3> Things you'll need </h3>
                     <ol className="whitespace-pre-line">
-                      {section.ingredients.split(/\r?\n/).map((ingredient, index) => (
-                        <li key={index}> {ingredient} </li>
-                      ))}
+                      {section.ingredients
+                        .split(/\r?\n/)
+                        .filter((ingredient) => ingredient.length)
+                        .map((ingredient, index) => (
+                          <li key={index}> {ingredient} </li>
+                        ))}
                     </ol>
                     <h3> Instructions </h3>
                     <ol className="whitespace-pre-line">
-                      {section.instructions.split(/\r?\n/).map((instruction, index) => (
-                        <li key={index}> {instruction} </li>
-                      ))}
+                      {section.instructions
+                        .split(/\r?\n/)
+                        .filter((i) => i)
+                        .map((instruction, index) => (
+                          <li key={index}> {instruction} </li>
+                        ))}
                     </ol>
                     <h3 className="mb-10">
                       {' '}

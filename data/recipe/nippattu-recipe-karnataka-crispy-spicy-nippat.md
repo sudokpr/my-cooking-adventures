@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 layout: PostFrontMatter
 title: Nippattu Recipe / Karnataka Crispy Spicy Nippat
 summary: An extremely simple and popular deep-fried snack recipe from the famous

@@ -4,6 +4,8 @@ layout: PostFrontMatter
 title: Tomato Soup / Cream of tomato soup recipe
 summary: easy and simple tomato soup
 cover: /static/images/tomatosoup-10.jpg
+tags:
+  - soup
 date: 2022-07-22T08:06:11.167Z
 subrecipe:
   - ingredients: |-

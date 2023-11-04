@@ -1,7 +1,7 @@
 ---
 draft: false
 layout: PostFrontMatter
-title: Panner Parota (Sample page)
+title: Panner Parota (Sample page - multisection)
 summary: An example post with multi-section recipe
 cover: /static/images/paneer-parota.jpeg
 tags:
@@ -56,7 +56,7 @@ subrecipe:
         title: Prepare Pizza
         image: /static/images/pizza.jpg
         isLandscape: false
-      - title: 'Saute '
+      - title: "Saute "
         description: Firstly, in a large kadai, add butter and tej leaf. saute till it
           turns aromatic
         image: /static/images/pxl_20210606_135820979.jpg
